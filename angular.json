@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://mmicleus.github.io/Biking.ie/",
             "outputPath": "dist/biking",
             "index": "src/index.html",
             "main": "src/main.ts",
